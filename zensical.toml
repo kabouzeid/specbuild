@@ -1,0 +1,23 @@
+[project]
+site_name = "specbuild"
+site_description = "Documentation for specbuild. Registry-based object builder for nested configs."
+site_author = "Karim Abou Zeid"
+repo_url = "https://github.com/kabouzeid/specbuild"
+repo_name = "kabouzeid/specbuild"
+edit_uri = "edit/main/docs/"
+nav = [
+  { "Overview" = "index.md" },
+]
+
+[project.plugins.mkdocstrings.handlers.python]
+inventories = ["https://docs.python.org/3/objects.inv"]
+paths = ["src"]
+
+[project.plugins.mkdocstrings.handlers.python.options]
+docstring_style = "google"
+inherited_members = true
+show_source = false
+separate_signature = true
+show_signature_annotations = true
+members_order = "__all__"
+docstring_section_style = "spacy"

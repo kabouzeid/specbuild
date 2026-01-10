@@ -1,0 +1,14 @@
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# uv
+dist/
+.venv/
+
+# zensical
+site/
+
+# pyright
+pyrightconfig.json
