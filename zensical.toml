@@ -7,6 +7,7 @@ repo_name = "kabouzeid/specbuild"
 edit_uri = "edit/main/docs/"
 nav = [
   { "Overview" = "index.md" },
+  { "API reference" = "api.md" },
 ]
 
 [project.plugins.mkdocstrings.handlers.python]

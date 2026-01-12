@@ -129,13 +129,3 @@ cfg = load("configs/model.py")
 model = build(cfg["model"])
 optimizer = build(cfg["optimizer"], params=model.parameters())
 ```
-
-::: specbuild
-    options:
-        show_root_heading: true
-        heading: "API reference"
-        toc_label: "API reference"
-        summary:
-            attributes: true
-            classes: true
-            functions: true
