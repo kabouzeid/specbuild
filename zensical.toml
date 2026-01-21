@@ -2,8 +2,8 @@
 site_name = "specbuild"
 site_description = "Documentation for specbuild. Registry-based object builder for nested configs."
 site_author = "Karim Abou Zeid"
-repo_url = "https://github.com/kabouzeid/specbuild"
-repo_name = "kabouzeid/specbuild"
+repo_url = "https://github.com/karimknaebel/specbuild"
+repo_name = "karimknaebel/specbuild"
 edit_uri = "edit/main/docs/"
 nav = [
   { "Overview" = "index.md" },

@@ -4,7 +4,7 @@
 
 Registry-based object builder for nested configuration dictionaries.
 
-Docs: https://kabouzeid.github.io/specbuild/
+Docs: https://karimknaebel.github.io/specbuild/
 
 ## Install
 
@@ -85,4 +85,4 @@ logger = build(
 )
 ```
 
-Works well with [`cfgx`](https://github.com/kabouzeid/cfgx) for loading config dictionaries.
+Works well with [`cfgx`](https://github.com/karimknaebel/cfgx) for loading config dictionaries.
